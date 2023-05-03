@@ -7,7 +7,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      PORT: 3000
+      PORT: 1337
       MONGODB_URI: mongodb://mongo_db:27017/daos
     depends_on:
       - mongo_db
@@ -24,6 +24,6 @@ services:
     build:
       context: ./daos-frontend
     ports:
-      - 4000:4000
+      - 5500:5500
 volumes:
   mongo_db: {}
