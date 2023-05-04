@@ -1,4 +1,4 @@
-## Step by step guide on how to run the docker project
+# Step by step guide on how to run the docker project
 Navigate to the frontend folder and run the following command
 ```javascript
 docker build --tag frontend .
@@ -15,8 +15,7 @@ Check if the images have been created
 ```javascript
 docker images
 ```
-<br>
-
+## Running the project
 Using docker-compose
 ```javascript
 docker-compose up
