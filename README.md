@@ -1,5 +1,6 @@
 # Description
 The developers for this project are: Kasper and Christian
+<br>
 The developers for the entire project, which have been used as the base, are: Victor, Nikolaj, Kasper and Christian
 
 # Step by step guide on how to run the docker project
